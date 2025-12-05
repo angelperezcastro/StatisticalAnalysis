@@ -1,0 +1,13 @@
+generator,split,class,num_images
+generador1_ADM_descomprimido,train,ai,162000
+generador1_ADM_descomprimido,train,nature,157453
+generador1_ADM_descomprimido,val,ai,6000
+generador1_ADM_descomprimido,val,nature,6000
+generador2_BigGAN_descomprimido,train,ai,162000
+generador2_BigGAN_descomprimido,train,nature,162000
+generador2_BigGAN_descomprimido,val,ai,6000
+generador2_BigGAN_descomprimido,val,nature,6000
+generador3_glide_descomprimido,train,ai,162000
+generador3_glide_descomprimido,train,nature,162000
+generador3_glide_descomprimido,val,ai,6000
+generador3_glide_descomprimido,val,nature,6000

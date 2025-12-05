@@ -1,60 +1,57 @@
-# ====================================================
-# Ignore EVERYTHING inside data/
-# ====================================================
+# ============================================================
+# IGNORE ALL CONTENT inside data/ but KEEP the directory tree
+# ============================================================
 
+# Ignore everything inside data
 data/*
 data/**
 
-# BUT allow .gitkeep files (folder structure only)
+# Allow directory structure via .gitkeep files
 !data/.gitkeep
+!data/**/
 !data/**/.gitkeep
 
-# ====================================================
-# Ignore outputs EXCEPT figures
-# ====================================================
+# This ensures all subfolders appear in Git
+# But files like .jpg, .png, etc. remain ignored
 
-output/*
-output/**
+# ============================================================
+# OUTPUT: allow everything to be tracked
+# (figures, tables, logs... everything is included)
+# ============================================================
 
-!output/.gitkeep
-!output/**/.gitkeep
+# Do NOT ignore output anymore
+# (so we REMOVE previous output ignore rules)
+# → nothing to do here, simply do NOT include ignore patterns
+#   for output/
 
-# Allow figures (PNG)
-!output/figures/
-!output/figures/**
-!output/figures/*.png
-
-# ====================================================
-# Python cache & compiled files
-# ====================================================
+# ============================================================
+# PYTHON & ENV FILES
+# ============================================================
 
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# ====================================================
 # Virtual environments
-# ====================================================
-
 venv/
 .env/
 .venv/
 
-# ====================================================
-# Editor & System Files
-# ====================================================
+# ============================================================
+# SYSTEM FILES
+# ============================================================
 
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ====================================================
-# Misc
-# ====================================================
+# ============================================================
+# EDITOR TEMP FILES
+# ============================================================
 
-*.log
 *.tmp
+*.log
 *.bak
 *.swp
 *.swo
