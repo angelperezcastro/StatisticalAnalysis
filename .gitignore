@@ -1,8 +1,8 @@
 # ============================================================
 # IGNORE ALL CONTENT inside data/ but KEEP the directory tree
+# (dataset should NOT be uploaded)
 # ============================================================
 
-# Ignore everything inside data
 data/*
 data/**
 
@@ -11,21 +11,17 @@ data/**
 !data/**/
 !data/**/.gitkeep
 
-# This ensures all subfolders appear in Git
-# But files like .jpg, .png, etc. remain ignored
 
 # ============================================================
-# OUTPUT: allow everything to be tracked
-# (figures, tables, logs... everything is included)
+# OUTPUT DIRECTORY — DO NOT IGNORE ANY CONTENT
+# We want to track: figures, tables, logs, etc.
 # ============================================================
 
-# Do NOT ignore output anymore
-# (so we REMOVE previous output ignore rules)
-# → nothing to do here, simply do NOT include ignore patterns
-#   for output/
+# (no ignore rules for output/ on purpose)
+
 
 # ============================================================
-# PYTHON & ENV FILES
+# PYTHON / CACHE FILES
 # ============================================================
 
 __pycache__/
@@ -33,10 +29,15 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Virtual environments
+
+# ============================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================
+
 venv/
 .env/
 .venv/
+
 
 # ============================================================
 # SYSTEM FILES
@@ -46,12 +47,12 @@ venv/
 Thumbs.db
 desktop.ini
 
+
 # ============================================================
 # EDITOR TEMP FILES
 # ============================================================
 
 *.tmp
-*.log
 *.bak
 *.swp
 *.swo

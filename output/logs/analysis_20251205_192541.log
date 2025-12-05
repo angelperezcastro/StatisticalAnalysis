@@ -1,0 +1,52 @@
+[2025-12-05 19:25:41] [INFO] Logging initialized.
+[2025-12-05 19:25:41] [INFO] Log file: output\logs\analysis_20251205_192541.log
+[2025-12-05 19:25:41] [INFO] Dataset root: C:\Users\angel\Desktop\Proyecto_Nikola\data\GenImage
+[2025-12-05 19:25:41] [INFO] Generators: ['generador1_ADM_descomprimido', 'generador2_BigGAN_descomprimido', 'generador3_glide_descomprimido']
+[2025-12-05 19:25:41] [INFO] Splits: ['train', 'val']
+[2025-12-05 19:25:41] [INFO] Output directory: C:\Users\angel\Desktop\Proyecto_Nikola\output
+[2025-12-05 19:25:41] [INFO] Scanning data\GenImage\generador1_ADM_descomprimido\train\ai ...
+[2025-12-05 19:25:42] [INFO] 162000 images found in generador1_ADM_descomprimido / train / ai
+[2025-12-05 19:25:42] [INFO] Sampling 500 images out of 162000.
+[2025-12-05 19:25:45] [INFO] Scanning data\GenImage\generador1_ADM_descomprimido\train\nature ...
+[2025-12-05 19:25:46] [INFO] 157453 images found in generador1_ADM_descomprimido / train / nature
+[2025-12-05 19:25:46] [INFO] Sampling 500 images out of 157453.
+[2025-12-05 19:25:53] [INFO] Scanning data\GenImage\generador1_ADM_descomprimido\val\ai ...
+[2025-12-05 19:25:53] [INFO] 6000 images found in generador1_ADM_descomprimido / val / ai
+[2025-12-05 19:25:53] [INFO] Sampling 500 images out of 6000.
+[2025-12-05 19:25:55] [INFO] Scanning data\GenImage\generador1_ADM_descomprimido\val\nature ...
+[2025-12-05 19:25:55] [INFO] 6000 images found in generador1_ADM_descomprimido / val / nature
+[2025-12-05 19:25:55] [INFO] Sampling 500 images out of 6000.
+[2025-12-05 19:26:02] [INFO] Scanning data\GenImage\generador2_BigGAN_descomprimido\train\ai ...
+[2025-12-05 19:26:03] [INFO] 162000 images found in generador2_BigGAN_descomprimido / train / ai
+[2025-12-05 19:26:03] [INFO] Sampling 500 images out of 162000.
+[2025-12-05 19:26:04] [INFO] Scanning data\GenImage\generador2_BigGAN_descomprimido\train\nature ...
+[2025-12-05 19:26:05] [INFO] 162000 images found in generador2_BigGAN_descomprimido / train / nature
+[2025-12-05 19:26:05] [INFO] Sampling 500 images out of 162000.
+[2025-12-05 19:26:14] [INFO] Scanning data\GenImage\generador2_BigGAN_descomprimido\val\ai ...
+[2025-12-05 19:26:14] [INFO] 6000 images found in generador2_BigGAN_descomprimido / val / ai
+[2025-12-05 19:26:14] [INFO] Sampling 500 images out of 6000.
+[2025-12-05 19:26:15] [INFO] Scanning data\GenImage\generador2_BigGAN_descomprimido\val\nature ...
+[2025-12-05 19:26:15] [INFO] 6000 images found in generador2_BigGAN_descomprimido / val / nature
+[2025-12-05 19:26:15] [INFO] Sampling 500 images out of 6000.
+[2025-12-05 19:26:23] [INFO] Scanning data\GenImage\generador3_glide_descomprimido\train\ai ...
+[2025-12-05 19:26:24] [INFO] 162000 images found in generador3_glide_descomprimido / train / ai
+[2025-12-05 19:26:24] [INFO] Sampling 500 images out of 162000.
+[2025-12-05 19:26:26] [INFO] Scanning data\GenImage\generador3_glide_descomprimido\train\nature ...
+[2025-12-05 19:26:27] [INFO] 162000 images found in generador3_glide_descomprimido / train / nature
+[2025-12-05 19:26:27] [INFO] Sampling 500 images out of 162000.
+[2025-12-05 19:26:34] [INFO] Scanning data\GenImage\generador3_glide_descomprimido\val\ai ...
+[2025-12-05 19:26:34] [INFO] 6000 images found in generador3_glide_descomprimido / val / ai
+[2025-12-05 19:26:34] [INFO] Sampling 500 images out of 6000.
+[2025-12-05 19:26:36] [INFO] Scanning data\GenImage\generador3_glide_descomprimido\val\nature ...
+[2025-12-05 19:26:36] [INFO] 6000 images found in generador3_glide_descomprimido / val / nature
+[2025-12-05 19:26:36] [INFO] Sampling 500 images out of 6000.
+[2025-12-05 19:26:43] [INFO] Saved counts table to: output\tables\image_counts.csv
+[2025-12-05 19:26:43] [INFO] Saved statistics table to: output\tables\image_stats_sample.csv
+[2025-12-05 19:26:44] [INFO] Saved plot: output\figures\counts_per_generator_train.png
+[2025-12-05 19:26:44] [INFO] Saved plot: output\figures\counts_per_generator_val.png
+[2025-12-05 19:26:44] [INFO] Saved plot: output\figures\width_hist.png
+[2025-12-05 19:26:45] [INFO] Saved plot: output\figures\height_hist.png
+[2025-12-05 19:26:45] [INFO] Saved plot: output\figures\aspect_ratio_by_class.png
+[2025-12-05 19:26:45] [INFO] Saved plot: output\figures\luminance_by_class.png
+[2025-12-05 19:26:46] [INFO] Saved plot: output\figures\pca_real_vs_ai.png
+[2025-12-05 19:26:46] [INFO] Analysis completed successfully.
