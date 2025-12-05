@@ -1,0 +1,12 @@
+# Ignore all output except figures
+output/*
+output/**
+
+# Allow figures (.png)
+!output/figures/
+!output/figures/**
+!output/figures/*.png
+
+# Allow .gitkeep for folder structure
+!output/.gitkeep
+!output/**/.gitkeep
