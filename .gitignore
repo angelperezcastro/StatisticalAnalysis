@@ -1,12 +1,60 @@
-# Ignore all output except figures
+# ====================================================
+# Ignore EVERYTHING inside data/
+# ====================================================
+
+data/*
+data/**
+
+# BUT allow .gitkeep files (folder structure only)
+!data/.gitkeep
+!data/**/.gitkeep
+
+# ====================================================
+# Ignore outputs EXCEPT figures
+# ====================================================
+
 output/*
 output/**
 
-# Allow figures (.png)
+!output/.gitkeep
+!output/**/.gitkeep
+
+# Allow figures (PNG)
 !output/figures/
 !output/figures/**
 !output/figures/*.png
 
-# Allow .gitkeep for folder structure
-!output/.gitkeep
-!output/**/.gitkeep
+# ====================================================
+# Python cache & compiled files
+# ====================================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ====================================================
+# Virtual environments
+# ====================================================
+
+venv/
+.env/
+.venv/
+
+# ====================================================
+# Editor & System Files
+# ====================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====================================================
+# Misc
+# ====================================================
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
