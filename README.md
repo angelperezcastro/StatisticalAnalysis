@@ -155,3 +155,7 @@ The final deliverables are:
 - An oral presentation (10–15 minutes)
 
 The dataset itself is not included in this repository, and only directory placeholders are stored to preserve structure.
+
+## ▶️Presentation
+The presentation has been made with Canva, click the following link to go:
+- https://www.canva.com/design/DAG6uy0R72k/R9KVahET_vOk1TTlqC0Vig/view?utm_content=DAG6uy0R72k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5e49b7e483
