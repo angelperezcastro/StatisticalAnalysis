@@ -3,9 +3,13 @@
 This project provides a complete statistical exploration of a GenImage-like dataset, containing AI-generated and natural images across multiple generators and splits. The goal is to quantify structural, color, and distribution differences between classes, as well as to generate reproducible analysis outputs in the form of tables, figures, and logs.
 
 The project was developed as part of an academic assignment requiring:
+
 ✔ statistical analysis
+
 ✔ clear documentation
+
 ✔ visualizations and tables
+
 ✔ an oral presentation summarizing the results
 
 ## 🚀 Overview
